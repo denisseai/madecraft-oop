@@ -1,7 +1,7 @@
 package exercises;
 
 public class Harry {
-
+	private String spell;
 	private boolean cloakOn;
 
 	Harry() {
@@ -31,6 +31,11 @@ public class Harry {
 		// 3. spy on professor snape
 		// 4. become visible again
 		// 5. cast a “stupefy” spell
+		Harry harry = new Harry();
+		harry.makeInvisible(true);
+		harry.castSpell("stupefy");
+		harry.spyOnSnape();
+		harry.makeInvisible(false);
 	}
 
 }
